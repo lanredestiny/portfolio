@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    font-family: Arial, 'lato', sans-serif;
+    font-size: 1.5;
+    line-height: 1.5em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*   TOPHEAD    */
+#tophead{
+    background: linear-gradient(to left, #1a69a2, #033f69);
+    color: #fff;
+    padding: 0px;
+    max-height: 40px;
+}
+
+#tophead p{
+    font-size: 70%;
+    float: left;
+}
+
+#tophead .icon{
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.icon a{
+    color: #fff;
+    padding: 5px;
+}
+
+/*  navber  */
+#navbar{
+    background: linear-gradient(to right, #1a69a2, #033f69);
+    color: #fff;
+    font-size: 80%;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    padding-left: 1.8em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+    color: #83a9c4;
+}
+
+#projectplanner{
+    font-size: 160%;
+    color: #1a69a2;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*   psideber   */
+#psidebar{
+    font-size: 100%;
+    float: left;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#pheader{
+    box-sizing: border-box;
+    text-align: center;
+    background: gray;
+    color: #fff;
+}
+
+#pheader #phead h3{
+    font-size: 140%;
+}
+
+.clr{
+    clear: both;
+}
+
+/*   pform  */
+#pheadform{
+    background-color: rgba(240, 235, 235, 0.5);
+    margin-left: 10px;
+    float: right;
+    width: 65%;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+#pform{
+    box-sizing: border-box;
+}
+
+#pform .pforminput label{
+    display: block;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#pform .pformtextarea label{
+    display: block;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#pform .pforminput input{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    height: 35px;
+    border: thick 1px gray;
+    border-radius: 5px;
+    font-size: 17px;
+    border: ridge 1px rgba(220, 220, 220, 0.4);
+    border-right: ridge 2px rgba(220, 220, 220, 0.4);
+    border-bottom: ridge 2px rgba(220, 220, 220, 0.4);
+    background: #fff;
+}
+
+#pform .pformtextarea textarea{
+    width: 95%;
+    height: 100px;
+    padding: 10px;
+    border: thick 1px gray;
+    border-radius: 5px;
+    font-size: 17px;
+    border: ridge 1px rgba(220, 220, 220, 0.4);
+    border-right: ridge 2px rgba(220, 220, 220, 0.4);
+    border-bottom: ridge 2px rgba(220, 220, 220, 0.4);
+    background: #fff;
+    resize: none;
+}
+
+#pform .pforminput{
+    margin-bottom: 20px;
+}
+
+#pform .pformtextarea{
+    margin-bottom: 20px;
+}
+
+#pform .pforminput p{
+    margin-top: -5px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+#pform .pformtextarea p{
+    margin-top: -5px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+#pform h3{
+    color: #1a69a2;
+}
+
+#pform p{
+    color: gray;
+}
+
+
+
+/*   checkbox    */
+#checkbox-head{
+    margin-top: 50px;
+}
+
+#checkbox{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#checkbox input:disabled+label{
+    display: block;
+}
+
+.clr{
+    clear: both;
+}
+
+
+/*   button     */
+.button{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button input{
+    background: linear-gradient(to right, #1a69a2, #033f69);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.button input:hover{
+    background: linear-gradient(to left, #1a69a2, #033f69);
+}
+
+/*    footer    */
+#footer{
+    font-size: 95%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #033f69;
+    color: #fff;
+}
+
+#footer a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    font-size: 70%;
+}
+
+#footer p{
+    font-size: 80%;
+}
+
+/*  social media    */
+#footer .icon .fa-facebook{
+    color: #3b5998;
+}
+
+#footer .icon .fa-instagram{
+    color: #e95950;
+}
+
+#footer .icon .fa-twitter{
+    color: #55acee;
+}
+
+#footer .icon .fa-linkedin{
+    color: #007bb5;
+}
+
+#footer .icon .fa-google-plus{
+    color: #dd4b39;
+}

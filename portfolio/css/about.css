@@ -1,0 +1,320 @@
+body{
+    margin: 0px;
+    font-family: Arial, 'lato', sans-serif;
+    font-size: 1.5;
+    line-height: 1.5em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#tophead{
+    background: linear-gradient(to left, #1a69a2, #033f69);
+    color: #fff;
+    padding: 0px;
+    max-height: 40px;
+}
+
+#tophead p{
+    font-size: 70%;
+    float: left;
+}
+
+#tophead .icon{
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.icon a{
+    color: #fff;
+    padding: 5px;
+}
+
+/*  navber  */
+#navbar{
+    background: linear-gradient(to right, #1a69a2, #033f69);
+    color: #fff;
+    font-size: 80%;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    padding-left: 1.8em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+    color: #83a9c4;
+}
+
+#about{
+    font-size: 160%;
+    color: #1a69a2;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*   psideber   */
+#asidebar{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.clr{
+    clear: left;
+}
+
+#contents{
+    text-align: center;
+    color: gray;
+}
+
+#images{
+    background-color: rgba(240, 235, 235, 0.5);
+    padding: 80px;
+    margin-bottom: 100px;
+}
+
+#footer{
+    font-size: 95%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #033f69;
+    color: #fff;
+}
+
+#footer a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    font-size: 70%;
+}
+
+#footer p{
+    font-size: 80%;
+}
+
+/*  social media    */
+#footer .icon .fa-facebook{
+    color: #3b5998;
+}
+
+#footer .icon .fa-instagram{
+    color: #e95950;
+}
+
+#footer .icon .fa-twitter{
+    color: #55acee;
+}
+
+#footer .icon .fa-linkedin{
+    color: #007bb5;
+}
+
+#footer .icon .fa-google-plus{
+    color: #dd4b39;
+}
+
+
+@media(max-width:900px){
+    .container{
+        max-width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #boxes .container{
+        max-width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #showcase h1{
+        font-size: 6.5em;
+    }
+}
+
+@media(max-width:800px){
+    #boxes .container{
+        max-width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+@media(max-width:768px){
+    *{
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+    .container{
+        max-width: 85%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .button a{
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .box h3{
+        font-size: 20px;
+    }
+
+    #showcase p{
+        font-size: 15px;
+    }
+
+    #showcase .btn{
+        display: inline;
+    }
+
+    #boxes .box{
+        float: none;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+        box-sizing: border-box;
+        background-color: rgba(220, 220, 220, 0.4);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .box p{
+        font-size: 95%;
+        color: gray;
+        margin-bottom: 20px;
+    }
+
+    .boxicon{
+        font-size: 0.7em;
+    }
+
+    #tophead{
+        display: none;
+    }
+
+    #showcase h1{
+        font-size: 5em;
+        margin-bottom: 10px;
+        margin-top: 130px;
+    }
+}
+
+@media(max-width:500px){
+    #showcase h1{
+        font-size: 3.8em;
+    }
+}
+
+@media(max-width:400px){
+    .container{
+        max-width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #showcase h1{
+        font-size: 3em;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    #showcase .btn{
+        display: none;
+    }
+
+    #showcase p{
+        font-size: 13.5px;
+    }
+
+    .box h3{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:400px){
+    *{
+        line-height: 1.7em;
+    }
+
+    #showcase h1{
+        font-size: 2.7em;
+    }
+
+    #showcase p{
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #boxes{
+        margin-bottom: 30px;
+    }
+
+    #boxes p{
+        font-size: 13px;
+    }
+
+    #boxes .container{
+        max-width: 92%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #footer a{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #pplanner{
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    #pplanner h3{
+        font-size: 16px;
+    }
+
+    #pplanner p{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+}
